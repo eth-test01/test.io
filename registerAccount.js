@@ -16,7 +16,7 @@ web3js.eth.getAccounts(function(err, accounts) {
 
 // コントラクトのアドレス
 // あなたがデプロイしたコントラクトのアドレスに書き換えて下さい．
-const address = "0xd9145CCE52D386f254917e481eB44e9943F39138";
+const address = "0x814595DB251c1620F3D9d3cEbebD1312ae21e38b";
 
 // コントラクトのインスタンスを生成
 contract = new web3js.eth.Contract(abi, address);
