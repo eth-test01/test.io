@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>registerAccount</title>
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script></script>
+<script language="javascript" type="text/javascript" src="registerAccountAbi.js"></script>
+<script language="javascript" type="text/javascript" src="registerAccount.js"></script>
+</head>
+<body>
+    ユーザー名：<br>
+    <input name="UserName" id="UserName" type="text" value="" /><br>
+    Eメールアドレス：<br>
+    <input name="UserEmail" id="UserEmail" type="email" value="" /><br>
+    <p><button onclick="registerInfo()">登録</button></p><br>
+    アカウント番号：<br>
+    <input name="NumAccount" id="NumAccount" type="number" value="" /><br>
+    <p><button onclick="showInfo()">アカウント情報表示</button></p><br>
+    <ul id="AccountInfo"></ul>
+</body>
+</html>
